@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 
 const AddTodo = () => {
 	const [value, setValue] = useState('');
-
+	const dispatch=useDispatch()
 	const onSubmit = (event) => {
 		event.preventDefault();
-		console.log('user entered: ' + value);
+		dispatch(AddTodo({title:value}))
 	};
 
 	return (

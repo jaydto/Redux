@@ -63,7 +63,7 @@ export const deleteTodoAsync = createAsyncThunk(
 
 export const todoSlice = createSlice({
 	name: 'todos',
-	initialState: [],
+	initialState: [{id:1, title:'todo1',completed:false}],
 	reducers: {
 		addTodo: (state, action) => {
 			const todo = {
