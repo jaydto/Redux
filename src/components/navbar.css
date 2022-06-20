@@ -10,13 +10,14 @@
 .item{
     /* border: 1px solid black; */
     display:flex;
-    align-items:center;
+    align-items:center!important;
 }
 .containers >.nav1{
     grid-column-start:2;
     grid-column-end: 4;
     width:100%;
     padding-left: 20px;
+    padding-top: 10px;
 }
 .nav__items{
     display: grid;
@@ -30,8 +31,9 @@
 }
 .nav__items a{
     display: flex;
-    align-items: center;
+    align-items: center!important;
     width:70px;
+    text-decoration: none!important;
     justify-content:center;
     height:50px;
     text-align: center;
