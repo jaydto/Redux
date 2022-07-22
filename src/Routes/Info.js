@@ -9,6 +9,9 @@ const Info = () => {
   return (
     <div>
       <Navbar/>
+      <div className="container">
+        <h1 className='bg-dark text-light text-uppercase text-center'> Tasks created</h1>
+      </div>
     <TodoList/>
     </div>
   )

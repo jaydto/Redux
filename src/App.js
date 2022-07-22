@@ -6,7 +6,7 @@ import Info from './Routes/Info';
 
 const App = () => {
   return (
-    <div className='container'>
+    <div className=''>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/todo" element={<Info/>}/>
