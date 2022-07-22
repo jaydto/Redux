@@ -11,6 +11,8 @@ const Navbar = () => {
             
             <Link to="/" className='nav__list'>Home</Link>
             <Link to="/todo" className='nav__list'>Todo</Link>
+            <Link to="/completed" className='nav__list'>Completed</Link>
+
             {/* <Link to="/" className='nav__list'>Home</Link> */}
 
 
